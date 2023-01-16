@@ -11,6 +11,7 @@ lerna init
 ### NX
 ```
 npx create-nx-workspace@latest
+npx nx graph
 ```
 
 ### Turborepo
