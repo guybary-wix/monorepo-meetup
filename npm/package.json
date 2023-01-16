@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-    "workspaces": [
-      "packageA",
-      "packageB"
-    ],
+  "workspaces": [
+    "packageA",
+    "packageB"
+  ],
   "scripts": {
     "test": "npm run test --workspaces"
   },
