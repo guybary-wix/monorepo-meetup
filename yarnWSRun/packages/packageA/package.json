@@ -13,6 +13,9 @@
   "devDependencies": {
     "@types/react": "^18.0.0"
   },
+  "installConfig": {
+    "hoistingLimits": "workspaces"
+  },
   "author": "",
   "license": "ISC"
 }
