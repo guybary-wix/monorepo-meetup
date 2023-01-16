@@ -1,0 +1,19 @@
+{
+  "name": "yarnPlugins",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "wsrun --exclude-missing start",
+    "build": "wsrun --exclude-missing build",
+    "test": "wsrun --exclude-missing --stages test",
+    "lint": "wsrun --exclude-missing lint"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@3.3.1",
+  "devDependencies": {
+    "wsrun": "^5.2.4"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "package-a-lerna",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "guybary <guybary@wix.com>",
+  "homepage": "https://github.com/guybary-wix/monorepo-meetup#readme",
+  "license": "ISC",
+  "main": "lib/package-a-lerna.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guybary-wix/monorepo-meetup.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/package-a-lerna.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/guybary-wix/monorepo-meetup/issues"
+  }
+}
